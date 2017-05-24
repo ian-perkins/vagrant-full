@@ -6,16 +6,16 @@ Update the indicated lines in `Vagrantfile` and `install.sh` to suit your partic
 
 Then: 
 
-`cd vagrant`
-`vagrant up`
+`cd vagrant`  
+`vagrant up`  
 
 This will take a few minutes, depending on the speed of your internet connection. 
 
 When it finishes:
 
-`vagrant halt`
-`sudo vagrant plugin install vagrant-vbguest`
-`vagrant up`
+`vagrant halt`  
+`sudo vagrant plugin install vagrant-vbguest`  
+`vagrant up`  
 
 This last step will cause the guest additions to be kept up-to-date. It's optional but without it, there will be a warning message each time the Vagrant machine is booted.
 
